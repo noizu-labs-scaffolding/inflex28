@@ -3,20 +3,20 @@ Code.ensure_loaded?(Hex) and Hex.start()
 defmodule Inflex.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/nurugger07/inflex"
+  @source_url "https://github.com/noizu-labs-scaffolding/inflex28"
 
   def project do
     [
-      app: :inflex,
-      version: "2.0.0",
+      app: :inflex28,
+      version: "2.1.0",
       elixir: ">= 1.0.0",
       deps: deps(),
       package: [
         files: ["lib", "mix.exs", "README*", "LICENSE*"],
-        contributors: ["Johnny Winn"],
+        contributors: ["Johnny Winn", "Keith Brings"],
         licenses: ["Apache-2.0"],
         links: %{"GitHub" => @source_url},
-        maintainers: ["Johnny Winn"]
+        maintainers: ["Keith Brings"]
       ],
       name: "Inflex",
       docs: [

@@ -1,4 +1,6 @@
-# Inflex
+# Inflex28
+
+An opt 28 friendly port of https://github.com/nurugger07/inflex
 
 <!-- MDOC !-->
 
@@ -19,7 +21,7 @@ You can add Inflex as a dependency in your `mix.exs` file. Since it only require
 ```elixir
 def deps do
   [
-    {:inflex, "~> 2.0.0"}
+    {:inflex28, "~> 2.1.0"}
   ]
 end
 ```
@@ -29,7 +31,7 @@ If you are not using [hex](http://hex.pm) you can add the dependency using the G
 ```elixir
 def deps do
   [
-    {:inflex, github: "nurugger07/inflex"}
+    {:inflex28, github: "noizu-labs/inflex28"}
   ]
 end
 ```
